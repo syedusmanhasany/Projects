@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+.navoptions a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+#flask{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.dots{
+    font-size: 20px;
+    display: inline;
+    /* margin-right: 0; */
+}
+.circle-image img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin-top: 20px; */
+    top: 10px;
+}
+/* end */
+/* main start */
+.google-logo{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;  
+}
+.google-image{
+    background-image: url('../Projects/IMAGES/googlelogo.png');
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+    mix-blend-mode: multiply;
+}
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;  
+}
+.searchbar-input{
+    width: 560px;
+    height: 40px;
+    border: none;  
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    color: gray;
+}
+.searchbar{
+    border: 1px solid rgb(217, 201, 201);
+    border-radius: 100px;
+    margin-left: 350px;
+    margin-right: 350px;
+} 
+.fa-microphone{
+    margin-right: 16px;
+    color: blue;
+}
+.fa-camera-retro{
+    color: blueviolet;
+}
+/* main end */
+/* section start */
+.section-con{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 40px;
+    width: 120px; 
+    border: none;   
+    margin-right: 10px;
+}
+button:hover{
+    border: 1px solid lightgray;
+}
+/* end */
+.foot{
+    margin-top: 140px;
+    height: 50px;
+    /* background-color: rgb(49, 47, 49); */
+}
+.loc{
+    background-color: #d7dade;
+    padding: 20px;
+    border-bottom: 1px solid #5f646d;
+    color: black;
+}
+.foot-links{
+    background-color: #d7dade;
+    height: 46px;
+    padding-top: 10px;
+}
+#right-section{
+    /* position: relative; */
+    margin-left: 780px;
+}
+.foot-links a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}

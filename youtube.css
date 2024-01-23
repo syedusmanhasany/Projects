@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ddd9de;
+}
+.container {
+    display: flex;
+}
+/* horizontal nav */
+.navoptions{
+    padding-left: 20px;
+    height: 56px;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    background-color: #cec9cb;
+}
+.fa-bars{
+    font-size: 20px;
+}
+.ytlogo-size{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 120px;
+    mix-blend-mode: multiply;
+}
+.ytlogo{
+    background-image: url(../Projects/IMAGES/yt/yt-image.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 120px;
+}
+.searchbar{
+    margin-left: 200px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    background-color: silver;
+
+}
+.searchbar-input{
+    width: 500px;
+    height: 40px;
+    padding-left: 15px;
+    border: none;
+    /* border: 1px solid gray; */
+    /* border-radius: 40px; */
+    border-right: 1px solid gray;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    margin-right: 13px;
+    margin-left: 10px;
+}
+.microphone{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: silver;
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 8px;
+
+}
+.fa-video{
+    margin-right: 20px;
+    margin-left: 250px;
+    font-size: 20px;
+}
+.fa-bell{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.circle-image img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+/* vertical nav */
+
+.vertical-nav{
+    padding-top: 15px;
+    width: 70px;
+    background-color: #cec9cb;
+    height: 550px;
+    padding-right: 20px;
+}
+.vertical-icons{
+    padding-top: 25px;
+    margin-left: 18px;
+    font-size: 20px;
+}
+#text-icons{
+    font-size: 12px;
+    margin-left: 15px;
+}
+/* video cards */
+.video {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.video-card {
+    display: flex;
+    width: 300px;
+    height: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px; /* Adjust the margin as needed */
+    margin-left: 20px; /* Adjust the margin as needed */
+}
+.video-con{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(33, 122, 67);
+    margin-top: 180px;
+    padding-right: 30PX;
+}
+.content{
+    flex-wrap: wrap;
+    margin-top: 180px;
+    padding-left: 5px;
+}
